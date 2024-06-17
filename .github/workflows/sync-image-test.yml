@@ -21,9 +21,9 @@ jobs:
       uses: docker/login-action@v3
       with:
         registry: registry.cn-hangzhou.aliyuncs.com
-        username: 美守安
+        username: leozheng_ali
         password: Shit-123
         logout: false
 
     - name: Use Skopeo Tools Sync Docker Image from Docker Hub
-      run: skopeo copy docker://docker.io/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/msig/nginx:latest
+      run: skopeo copy docker://docker.io/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/msic/nginx:1.27.0
