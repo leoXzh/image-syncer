@@ -26,4 +26,4 @@ jobs:
         logout: false
 
     - name: Use Skopeo Tools Sync Docker Image from Docker Hub
-      run: skopeo copy docker://docker.io/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/msic/nginx:1.27.0
+      run: skopeo copy docker://docker.io/portainer/portainer-ce:latest docker://registry.cn-hangzhou.aliyuncs.com/msic/portainer-ce:2.19.5
