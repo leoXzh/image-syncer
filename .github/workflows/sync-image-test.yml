@@ -26,4 +26,4 @@ jobs:
         logout: false
 
     - name: Use Skopeo Tools Sync Docker Image from Docker Hub
-      run: skopeo copy docker://docker.io/xuxueli/xxl-job-admin:3.0.1 docker://registry.cn-hangzhou.aliyuncs.com/msig/xxl-job-admin:3.0.1
+      run: skopeo copy docker://docker.io/xuxueli/xxl-job-admin:3.0.0 docker://registry.cn-hangzhou.aliyuncs.com/msig/xxl-job-admin:3.0.0
