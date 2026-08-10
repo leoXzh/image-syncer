@@ -26,5 +26,4 @@ jobs:
         logout: false
 
     - name: Use Skopeo Tools Sync Docker Image from Docker Hub
-      run: skopeo copy docker://docker.io/valkey/valkey@sha256:ee91f7a174ac4d6a6b0685b3a60e321f0a9dbbb691f9b0e285be2ba1d1be8328 docker://registry.cn-hangzhou.aliyuncs.com/msig/valkey:9.1.1-alpine
-      
+      run: skopeo copy docker://docker.io/postgres@sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15 docker://registry.cn-hangzhou.aliyuncs.com/msig/postgres:18.4-alpine
