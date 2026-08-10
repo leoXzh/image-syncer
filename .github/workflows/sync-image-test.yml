@@ -26,5 +26,5 @@ jobs:
         logout: false
 
     - name: Use Skopeo Tools Sync Docker Image from Docker Hub
-      run: skopeo copy docker://docker.io/defectdojo/defectdojo-nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/msig/defectdojo-nginx:latest
+      run: skopeo copy docker://docker.io/postgres:18.4-alpine docker://registry.cn-hangzhou.aliyuncs.com/msig/postgres:18.4-alpine
       
